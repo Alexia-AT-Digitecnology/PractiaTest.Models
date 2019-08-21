@@ -2,7 +2,6 @@ namespace PractiaTest.Models.Entities
 {
     public class InvoiceDetail
     {
-        public int Id { get; set; }
         public int InvoiceId { get; set; }
         public int ProductId { get; set; }
         public string ProductName { get; set; }
