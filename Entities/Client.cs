@@ -12,6 +12,6 @@ namespace PractiaTest.Models.Entities
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public List<int> Invoices = new List<int>();
-        public bool Has10PercentDiscount { get; set; }
+        public decimal Has10PercentDiscount { get; set; }
     }
 }
