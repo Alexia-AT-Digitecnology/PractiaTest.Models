@@ -11,7 +11,7 @@ namespace PractiaTest.Models.Entities
         public DateTime BornDate { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
-        public List<int> Invoices = new List<int>();
+        public List<int> Invoices { get; set; }
         public decimal Has10PercentDiscount { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace PractiaTest.Models.Entities
         public DateTime IssueDate { get; set; }
         public bool Paid { get; set; }
         public decimal? Total { get; set; }
-        public List<InvoiceDetail> InvoiceDetails = new List<InvoiceDetail>(); 
+        public List<InvoiceDetail> InvoiceDetails { get; set; }
             
     }
 }
